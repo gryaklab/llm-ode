@@ -11,13 +11,13 @@
 
 ## Overview
 
-Genetic programming (GP) is a established approach for automated equation discovery but suffers from inefficient search and slow convergence. LLM-ODE addresses this by using an LLM as a genetic variation operator that extracts patterns from elite candidate equations to guide symbolic evolution more effectively. Evaluated on 91 dynamical systems, LLM-ODE consistently outperforms standard GP baselines in search efficiency and solution quality, with stronger scalability to high-dimensional systems than linear or Transformer-only methods.
+Genetic programming (GP) is an established approach for automated equation discovery but suffers from inefficient search and slow convergence. LLM-ODE addresses this by using an LLM as a genetic variation operator that extracts patterns from elite candidate equations to guide symbolic evolution more effectively. Evaluated on 91 dynamical systems, LLM-ODE consistently outperforms standard GP baselines in search efficiency and solution quality, with stronger scalability to high-dimensional systems than linear or Transformer-only methods.
 
 ![](assets/llm-ode.png)
 
 ## Installation
 
-First, you need to install the dependencies.
+First, you need to install the dependencies:
 
 ```
 git clone git@github.com:gryaklab/llm-ode.git
@@ -27,7 +27,7 @@ uv sync
 
 ## Training and Evaluation
 
-The script `serve_and_run.sh` launches the vllm servers in the background and runs the LLM-ODE on all the datasets:
+The script `serve_and_run.sh` launches the vllm servers in the background and runs LLM-ODE on all datasets:
 
 ```
 chmod +x serve_and_run.sh
@@ -36,7 +36,7 @@ chmod +x serve_and_run.sh
 
 ## Baseline Methods
 
-In separate environemnts, you need install the required packages for each baseline method. Then, issue:
+In separate environments, you need to install the required packages for each baseline method. Then, issue:
 
 ```
 python -m baselines.pysr --save_dir results/pysr/
