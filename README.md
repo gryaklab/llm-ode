@@ -3,7 +3,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.13.5-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2603.20910)
+[![arXiv](https://img.shields.io/badge/arXiv-2603.20910-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2603.20910)
 
 </div>
 
