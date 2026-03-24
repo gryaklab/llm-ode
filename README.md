@@ -3,11 +3,11 @@
 
 [![Python](https://img.shields.io/badge/Python-3.13.5-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white)](TBA)
+[![arXiv](https://img.shields.io/badge/arXiv-TBA-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2603.20910)
 
 </div>
 
-**Official implementation of paper [LLM-ODE: Data-driven Discovery of Dynamical Systems with Large Language Models](TBA) (GECCO 2026)**
+**Official implementation of paper [LLM-ODE: Data-driven Discovery of Dynamical Systems with Large Language Models](http://arxiv.org/abs/2603.20910) (GECCO 2026)**
 
 ## Overview
 
@@ -25,7 +25,7 @@ cd llmode
 uv sync
 ```
 
-## Training and evaluation
+## Training and Evaluation
 
 The script `serve_and_run.sh` launches the vllm servers in the background and runs the LLM-ODE on all the datasets:
 
@@ -34,7 +34,7 @@ chmod +x serve_and_run.sh
 ./serve_and_run.sh
 ```
 
-## Baseline methodss
+## Baseline Methods
 
 In separate environemnts, you need install the required packages for each baseline method. Then, issue:
 
@@ -53,7 +53,12 @@ Issue `uv run pytest`.
 If you find our work useful, consider a ⭐️ and citing us with
 
 ```bibtex
-TBA
+@article{bideh2026llmode,
+  title={LLM-ODE: Data-driven Discovery of Dynamical Systems with Large Language Models},
+  author={Bideh, Amirmohammad Ziaei and Gryak, Jonathan},
+  journal={arXiv preprint arXiv:2603.20910},
+  year={2026}
+}
 ```
 
 ## License
