@@ -1,0 +1,9 @@
+@misc{bideh2026llmodedatadrivendiscoverydynamical,
+      title={LLM-ODE: Data-driven Discovery of Dynamical Systems with Large Language Models}, 
+      author={Amirmohammad Ziaei Bideh and Jonathan Gryak},
+      year={2026},
+      eprint={2603.20910},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.20910}, 
+}

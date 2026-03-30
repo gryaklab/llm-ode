@@ -13,7 +13,7 @@
 
 Genetic programming (GP) is an established approach for automated equation discovery but suffers from inefficient search and slow convergence. LLM-ODE addresses this by using an LLM as a genetic variation operator that extracts patterns from elite candidate equations to guide symbolic evolution more effectively. Evaluated on 91 dynamical systems, LLM-ODE consistently outperforms standard GP baselines in search efficiency and solution quality, with stronger scalability to high-dimensional systems than linear or Transformer-only methods.
 
-![](assets/llm-ode.png)
+![](docs/assets/llm-ode.png)
 
 ## Installation
 
