@@ -1,19 +1,20 @@
 # LLM-ODE
 <div align="center">
+  
+<img src="docs/assets/llm-ode.jpg" width=50%></img>
 
 [![Python](https://img.shields.io/badge/Python-3.13.5-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.20910-b31b1b.svg?style=for-the-badge&logo=arxiv&logoColor=white)](http://arxiv.org/abs/2603.20910)
 
-</div>
-
 **Official implementation of paper [LLM-ODE: Data-driven Discovery of Dynamical Systems with Large Language Models](http://arxiv.org/abs/2603.20910) (GECCO 2026)**
+
+</div>
 
 ## Overview
 
 Genetic programming (GP) is an established approach for automated equation discovery but suffers from inefficient search and slow convergence. LLM-ODE addresses this by using an LLM as a genetic variation operator that extracts patterns from elite candidate equations to guide symbolic evolution more effectively. Evaluated on 91 dynamical systems, LLM-ODE consistently outperforms standard GP baselines in search efficiency and solution quality, with stronger scalability to high-dimensional systems than linear or Transformer-only methods.
 
-![](docs/assets/llm-ode.png)
 
 ## Installation
 
